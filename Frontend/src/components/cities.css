@@ -1,0 +1,33 @@
+.wrapper {
+  background-image: url("../images/diagoona-bg-3.jpg");
+  background-size: cover;
+}
+.component-wrapper {
+  min-height: 300px;
+  max-height: 700px;
+}
+
+.scroll_style_components {
+  float: left;
+  width: -webkit-fill-available;
+  overflow-y: auto;
+  max-height: 800px;
+}
+
+@media (max-width: 450px) {
+  .scroll_style_components {
+    float: left;
+    width: -webkit-fill-available;
+    overflow-y: auto;
+    max-height: 30em;
+  }
+}
+
+@media (max-width: 830px) {
+  .scroll_style_components {
+    float: left;
+    width: -webkit-fill-available;
+    overflow-y: auto;
+    max-height: 42em;
+  }
+}

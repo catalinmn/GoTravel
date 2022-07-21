@@ -1,0 +1,23 @@
+.btn {
+  margin: 10px;
+}
+
+.rating {
+  margin-left: 2rem;
+  vertical-align: -0.4rem;
+}
+
+.card-image {
+  margin-bottom: 20px;
+  margin-left: 20px;
+  width: 18rem;
+
+  float: right;
+}
+
+.card-title {
+  font-family: "Open Sans", Arial, sans-serif;
+  font-size: 17px;
+  font-weight: 300;
+  color: rgb(68, 142, 212);
+}
